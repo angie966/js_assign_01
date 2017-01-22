@@ -15,7 +15,7 @@ Arr1.push(Number(myVal[2]));
 Arr1.push(Number(myVal[3]));
 
 // adding both the values
-let a= Number(myVal[3])+ Number(myVal[4]);
+let a= Number(myVal[2])+ Number(myVal[3]);
 
 //console log the sum
 console.log(a);
