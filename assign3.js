@@ -15,31 +15,31 @@ let a=[]
 // adding the values to create sum
 a = Number(myVal[2])+ Number(myVal[3]);
 
-console.log(a);
+let nv=a;
 
 // checking the values using if-else
 if(a < 10)
     
-    { console.log(' sum is less than 10');}
+    { console.log(`${nv} is less than 10`);}
 
 else if((a > 10) && (a < 100))
 
     {
     
-    console.log('sum is greater than 10 but less than 100');
+    console.log(`${nv} is greater than 10 but less than 100`);
     }
 
 else if((a > 100) && (a < 1000))
     
     {
     
-    console.log('sum is greater than 100 and less than 1000');
+    console.log(`${nv} is greater than 100 and less than 1000`);
     }
 
 else
 
     {
 
-    console.log("sum is greater than  1000");
+    console.log(`${nv} is greater than  1000`);
 
     }
